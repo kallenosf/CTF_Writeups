@@ -4,9 +4,15 @@ We have the binary named `Task-ReverseMe`
 
 Firstly, let's try to get some details about the binary using the `file` command:
 
+![file command!](https://raw.githubusercontent.com/kallenosf/CTF_Writeups/main/VU_Cyberthon_2023/img/Reverse_easy1.png "file command")
+
 It's an **ELF executable** (Executable and Linkable Format) which means it can be run in Unix-like operatng systems. Another important information is that it's **not stripped**, so we could search for interesting symbols.
 
 We can try run it:
+
+![run it](https://raw.githubusercontent.com/kallenosf/CTF_Writeups/main/VU_Cyberthon_2023/img/Reverse_easy2.png "run it")
+
+<img src="https://raw.githubusercontent.com/kallenosf/CTF_Writeups/main/VU_Cyberthon_2023/img/Reverse_easy2.png" width="400" height="100">
 
 It seems that it asks for login information. We probably need to find a username and a password to get the flag.
 
