@@ -28,5 +28,9 @@ We can see this more clearly in **Ghidra**:
 - The user input for *login* is saved in *local_20*
 - The user input for *password* is saved in *local_1c*
 
-Those values are compared with two local integer variables that are initialized at lines 15 and 16. Therefore if we input `0x3f1` for the login and `0x62b` for the password we will be able to get the flag:
+Those values are compared with two local integer variables that are initialized at lines 15 and 16. Therefore, if we input `0x3f1` for the login and `0x62b` for the password we will be able to get the flag:
+
 **Note: 3f1(hex) = 1009(dec), 62b(hex) = 1579(dec)**
+
+According to the task description the answer format was like *VU{user,password}*, so the flag is:
+**`VU{1009,1579}`**
