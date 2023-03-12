@@ -18,3 +18,15 @@ The functions
 
 are probably the functions that are being called after the check of the credentials.
 
+Let's disassemble the binary using `objdump`. In the main function we observe the following:
+
+We can see two `cmp` (compare) instructions and immediately afterwards a `jne` (jump if not equal) for each one of them. If the two compared registers have not the same value, we jump to the `fail` function.
+Those two comparisons are probably for username and password.
+
+We can see this more clearly in **Ghidra**:
+
+- The user input for *login* is saved in *local_20*
+- The user input for *password* is saved in *local_1c*
+
+Those values are compared with two local integer variables that are initialized at lines 15 and 16. Therefore if we input `0x3f1` for the login and `0x62b` for the password we will be able to get the flag:
+**Note: 3f1(hex) = 1009(dec), 62b(hex) = 1579(dec)**
