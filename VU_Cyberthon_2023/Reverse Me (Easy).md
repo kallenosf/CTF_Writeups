@@ -2,7 +2,7 @@
 
 We have the binary named `Task-ReverseMe`
 
-Firstly, let's try to get some details about the binary using the `file` command:
+Firstly, let's try to get some details about the [binary](https://github.com/kallenosf/CTF_Writeups/blob/main/VU_Cyberthon_2023/binaries/Task-ReverseME) using the `file` command:
 
 ![file command!](https://raw.githubusercontent.com/kallenosf/CTF_Writeups/main/VU_Cyberthon_2023/img/Reverse_easy1.png "file command")
 
