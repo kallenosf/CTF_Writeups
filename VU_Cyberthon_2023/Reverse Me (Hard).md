@@ -1,6 +1,6 @@
 # Task: Reverse Me (Hard)
 
-This challenge was very similar with the [Reverse Me (Easy) task](https://github.com/kallenosf/CTF_Writeups/blob/main/VU_Cyberthon_2023/Reverse%20Me%20(Easy).md) and can be solved in the same way, even though the easy one was awarded with 50pts while the hard one with 250pts (🤔). Perhaps the biggest difference was that this binary (Task-ReverseME-hard) was statically compiled. We can see that using the `file` command:
+This challenge was very similar with the [Reverse Me (Easy) task](https://github.com/kallenosf/CTF_Writeups/blob/main/VU_Cyberthon_2023/Reverse%20Me%20(Easy).md) and can be solved in the same way, even though the easy one was awarded with 50pts while the hard one with 250pts (🤔). Perhaps the biggest difference was that this [binary](https://github.com/kallenosf/CTF_Writeups/blob/main/VU_Cyberthon_2023/binaries/Task-ReverseME-hard) (Task-ReverseME-hard) was statically compiled. We can see that using the `file` command:
 
 ![file command!](https://raw.githubusercontent.com/kallenosf/CTF_Writeups/main/VU_Cyberthon_2023/img/TaskReverseME-hard1.png)
 
