@@ -1,6 +1,6 @@
 # Task: Reverse Me (Easy)
 
-We have the binary named `Task-ReverseMe`
+We have the [binary](https://github.com/kallenosf/CTF_Writeups/blob/main/VU_Cyberthon_2023/binaries/Task-ReverseME) named `Task-ReverseMe`
 
 Firstly, let's try to get some details about the [binary](https://github.com/kallenosf/CTF_Writeups/blob/main/VU_Cyberthon_2023/binaries/Task-ReverseME) using the `file` command:
 
